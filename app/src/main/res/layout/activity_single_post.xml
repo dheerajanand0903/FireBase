@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0"
+    tools:context="com.example.dheeraj.college.singlePostActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarSinglePost"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/toolbar_bg"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_scrollFlags="scroll|enterAlways" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/singlePostCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="65dp"
+            android:layout_marginTop="15dp"
+            card_view:cardCornerRadius="16dp"
+            card_view:cardElevation="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageSinglePost"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/noimage"
+                    android:scaleType="fitXY" />
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/applyButton"
+            android:layout_width="395dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/bttnstyle"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="@string/apply"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#ffff"
+            />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

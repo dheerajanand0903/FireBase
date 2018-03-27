@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dheeraj.college.SignupActivity"
+    android:background="#e0e0e0"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textSize="45sp"
+        android:layout_margin="45dp"
+        android:textStyle="italic"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userName_editText"
+            android:inputType="textPersonName"
+            android:hint="@string/enter_your_name"
+            android:textAlignment="center"
+            android:layout_marginBottom="20dp"
+            />
+
+        <EditText
+            android:inputType="textEmailAddress"
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/signUp_email_EditText"
+            android:gravity="center"/>
+
+        <EditText
+            android:maxLength="8"
+            android:password="true"
+            android:inputType="textPassword"
+            android:id="@+id/pswrd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/signUp_pass_EditText"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/fieldsAreMandatory"
+            android:textAlignment="center"
+            android:textColor="#f44336"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:background="@drawable/bttnstyle"
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/SignUpTextView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="45dp"/>
+
+</RelativeLayout>

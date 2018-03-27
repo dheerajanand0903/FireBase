@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">WallApp</string>
+    <string name="loginPageImageView">ACET LOGO</string>
+    <string name="loginIDTextView">Login</string>
+    <string name="nameTextView">Name</string>
+    <string name="passwordTextView">Password</string>
+    <string name="SignUpTextView">Sign Up</string>
+    <string name="userIDHint">Email</string>
+    <string name="PasswordHint">Password</string>
+    <string name="loginButton">Log In</string>
+    <string name="signUp_email_EditText">Enter Email</string>
+    <string name="signUp_pass_EditText">Enter Password</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_drawer_open">open</string>
+    <string name="nav_drawer_close">close</string>
+    <string name="action_settings">Settings</string>
+    <string name="noimage">noImage</string>
+    <string name="devil">DeviL</string>
+    <string name="dheeraj">Dheeraj</string>
+    <string name="feedback">FeedBack</string>
+    <string name="settings">Settings</string>
+    <string name="signout">SignOut</string>
+    <string name="communication">Communication</string>
+    <string name="setYourStyle">Set your Style</string>
+    <string name="read_more">Read More..</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="welcome">Welcome</string>
+    <string name="fieldsAreMandatory">NOTE: All Fields Are Mandatory !!</string>
+    <string name="apply">Apply</string>
+    <string name="done">Done</string>
+    <string name="upload_your_image">Upload Your Image</string>
+    <string name="age">Your Age</string>
+    <string name="profile">Profile</string>
+</resources>

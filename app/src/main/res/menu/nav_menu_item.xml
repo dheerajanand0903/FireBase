@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/item1"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/item2"
+            android:title="item2"/>
+
+    </group>
+
+    <item android:title="@string/communication">
+        <menu>
+
+            <item
+                android:title="@string/feedback"
+                android:id="@+id/item3"
+                />
+        </menu>
+    </item>
+
+    <item android:title="@string/settings">
+        <menu>
+            <item
+                android:title="@string/signout"
+                android:id="@+id/signOutBtn"/>
+        </menu>
+    </item>
+</menu>

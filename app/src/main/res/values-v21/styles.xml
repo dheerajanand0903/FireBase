@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Mytheme1" parent="android:Theme">
+        <item name="android:statusBarColor">#2196f3</item>
+        <item name="android:colorPrimary">#64b5f6</item>
+        <item name="android:colorBackground">@android:color/background_light</item>
+        <item name="android:navigationBarColor">@android:color/darker_gray</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+</resources>
