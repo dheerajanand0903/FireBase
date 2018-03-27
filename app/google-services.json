@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "116521229041",
+    "firebase_url": "https://login-demo-36e72.firebaseio.com",
+    "project_id": "login-demo-36e72",
+    "storage_bucket": "login-demo-36e72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116521229041:android:e2d468fc1f48397c",
+        "android_client_info": {
+          "package_name": "com.example.dheeraj.college"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116521229041-08au76ms83u0jvj80ev8pjiqfu5sfe3v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dheeraj.college",
+            "certificate_hash": "6d7fa71817ebd1b507ff4cc0f3c6136256ab4e82"
+          }
+        },
+        {
+          "client_id": "116521229041-vcq55h8e3vvb4udqh7s83d2ji3qi6ouo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPRlMY7f0E_EA3YlnoDjgFN7r7swVetuk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116521229041-vcq55h8e3vvb4udqh7s83d2ji3qi6ouo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
